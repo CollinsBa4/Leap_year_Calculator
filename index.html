@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LEAPYEAR CALCULATOR</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="head">
+            <h4>LEAPYEAR CALCULATOR</h4>
+
+        </header>
+        <hr>
+        <div class="lowerSection">
+            <div class="forms">
+                <form>
+                    <input type="number" id="year" placeholder="Enter Year">
+
+                    <input type="button" value="Calculate" onclick="LEAP()" id="button">
+                    <input type="button" value="Reset" onclick="CLR()" id="button">
+                </form>
+
+            </div>
+
+            <div class="outputArea">
+
+                <textarea id="output"></textarea>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
